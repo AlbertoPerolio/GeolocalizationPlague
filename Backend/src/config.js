@@ -5,10 +5,10 @@ const config = {
     port: process.env.PORT || 5000,
   },
   jwt: {
-    secret: process.env.JWT_SECRET || "ies60392025",
+    secret: process.env.JWT_SECRET || "aaaa",
   },
   mysql: {
-    host: process.env.MYSQL_HOST || "localhost",
+    host: process.env.MYSQL_HOST || "aaa",
     user: process.env.MYSQL_USER || "root",
     password: process.env.MYSQL_PASSWORD || "",
     database: process.env.MYSQL_DB || "ninguna",
