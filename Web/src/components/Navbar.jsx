@@ -67,7 +67,7 @@ function Navbar() {
             <li className="nav-item">
               <p
                 className="nav-link"
-                onClick={() => handleScrollTo("sobre nosotros")}
+                onClick={() => handleScrollTo("sobrenosotros")}
               >
                 Sobre Nosotros
               </p>
@@ -75,7 +75,7 @@ function Navbar() {
             <li className="nav-item">
               <p
                 className="nav-link"
-                onClick={() => handleScrollTo("artículos")}
+                onClick={() => handleScrollTo("articulos")}
               >
                 Artículos
               </p>
